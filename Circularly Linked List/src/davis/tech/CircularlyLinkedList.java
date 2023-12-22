@@ -10,7 +10,7 @@ package davis.tech;
 public class CircularlyLinkedList<T> {
 	//inner Node class
 		@SuppressWarnings("hiding")
-		private class Node<T>{
+		private static class Node<T>{
 			private T element; //reference to the element stored at this node
 			private Node<T> next; //reference to the subsequent node in the list
 			
